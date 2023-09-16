@@ -11,17 +11,29 @@ To run this notebook, the following libraries need to be installed. You can inst
 ## The libraries used are:
 
 import pandas as pd
+
 import numpy as np
+
 import seaborn as sns
+
 from matplotlib import pyplot as plt
+
 from datetime import datetime, timedelta
+
 from sklearn.model_selection import train_test_split
+
 from sklearn.preprocessing import LabelEncoder
+
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score, max_error, explained_variance_score
+
 from sklearn.linear_model import LinearRegression
+
 from sklearn.tree import DecisionTreeRegressor
+
 from sklearn.ensemble import AdaBoostRegressor
+
 from sklearn.ensemble import RandomForestRegressor
+
 
 ## Notebook Structure
 ### Data Cleaning and Feature Engineering: In this section, we prepare the data for model training. This includes cleaning missing data, transforming features, and encoding categorical variables.
